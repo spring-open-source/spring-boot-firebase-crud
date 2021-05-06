@@ -7,15 +7,14 @@ import lombok.Data;
 @ConfigurationProperties(prefix = "com.hardik.rook")
 @Data
 public class FireBaseConfigurationProperties {
-	
+
 	private Configuration firebase = new Configuration();
-	
+
 	@Data
-	public class Configuration{
-		
-		private String databaseUrl;
+	public class Configuration {
+
 		private String firebasePrivateKey;
-		
+
 	}
 
 }

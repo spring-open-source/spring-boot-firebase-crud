@@ -14,7 +14,6 @@ Create the below mentioned collections thorugh firebase console
 # Application Setup
 
 * Copy Contents of downloaded private key from firebase to ./rook-private-key.json
-* Specify the firebase database url in application.properties
 * (Optional) Port number and base address can be changed in application.properties
 
 # Run
